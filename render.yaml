@@ -1,1 +1,12 @@
+services:
+  - type: web
+    name: telegram-news-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars:
+      - key: BOT_TOKEN
+        value: 7686858863:AAGE7W5cYPFU7JNe4Yuyprj9MTX8JbS-zbc
+      - key: CHANNEL_ID
+        value: @Daijoplus
 
